@@ -1,4 +1,4 @@
-PROJECT         := rosserial_mbed
+PROJECT         := mbed_canmd_controller
 DEVICES         := NUCLEO_F303RE
 GCC4MBED_DIR    := $(GCC4MBED_DIR)
 USER_LIBS       := !$(ROS_LIB_DIR) $(ROS_LIB_DIR)/BufferedSerial
